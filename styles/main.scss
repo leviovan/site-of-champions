@@ -1457,3 +1457,77 @@ $purple: #8836AE;
         }
     }
 }
+
+@media(max-width:770px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .preview {
+        &__content {
+            .left-side {
+                &__title {
+                    font-size: 40px;
+                    line-height: 110%;
+                }
+            }
+
+            .right-side {
+                height: 440px;
+
+                &__text {
+
+                    text-align: center;
+                    margin-left: 50px;
+                }
+            }
+
+            .bottom-side {
+                &__title {
+                    font-size: 34px;
+                    line-height: 110%;
+                }
+            }
+        }
+
+
+
+    }
+
+    .for-what {
+        &__btn {
+            text-align: center;
+        }
+    }
+
+    .participant {
+        &__content {
+            padding-left: 0px;
+        }
+
+        .dialog {
+            display: none;
+        }
+    }
+
+    .new {
+        &__title {
+            margin-left: 0px;
+        }
+
+        &__text {
+            margin-left: 0px;
+        }
+    }
+
+    .organizers {
+        .container {
+            padding-left: 40px;
+        }
+
+        &__title {
+            margin-left: 0px;
+        }
+    }
+}
