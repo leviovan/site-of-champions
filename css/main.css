@@ -1038,6 +1038,9 @@
   .new__item:nth-child(3) {
     margin: 0px;
   }
+  .participant .dialog__item:nth-child(2) {
+    margin-left: 0px;
+  }
   .participant_item img {
     margin: 0 auto;
     width: 100%;
@@ -1045,9 +1048,6 @@
   .participant_item__footnote {
     position: static;
     margin: 0 auto;
-  }
-  .participant_item .dialog__item:nth-child(2) {
-    margin-left: 0px;
   }
   .organizers__body .container__img {
     display: none;
@@ -1058,6 +1058,9 @@
   }
   .organizers .info {
     margin-top: 5px;
+  }
+  .organizers_text {
+    max-width: none;
   }
   .organizers__info {
     margin-top: 1px;

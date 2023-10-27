@@ -1315,6 +1315,11 @@ $purple: #8836AE;
     }
 
     .participant {
+        .dialog__item:nth-child(2) {
+
+            margin-left: 0px;
+        }
+
         &_item {
             img {
                 margin: 0 auto;
@@ -1326,10 +1331,7 @@ $purple: #8836AE;
                 margin: 0 auto;
             }
 
-            .dialog__item:nth-child(2) {
 
-                margin-left: 0px;
-            }
         }
     }
 
@@ -1348,6 +1350,10 @@ $purple: #8836AE;
 
         .info {
             margin-top: 5px;
+        }
+
+        &_text {
+            max-width: none;
         }
 
         &__info {
@@ -1382,6 +1388,12 @@ $purple: #8836AE;
             &:nth-child(even) {
                 padding: 10px 10px 10px 30px;
             }
+        }
+    }
+
+    .partner {
+        &__title {
+            // margin-top: 50px;
         }
     }
 }
