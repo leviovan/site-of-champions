@@ -1320,6 +1320,11 @@ $purple: #8836AE;
             margin-left: 0px;
         }
 
+        &__footnote {
+            position: static;
+            margin: 0 auto;
+        }
+
         &_item {
             img {
                 margin: 0 auto;
@@ -1392,8 +1397,63 @@ $purple: #8836AE;
     }
 
     .partner {
+        &__content {
+
+            padding: 0;
+
+        }
+
+        &__footnote {
+            position: static;
+            margin: 0 auto;
+            width: 161px;
+            text-align: center;
+            padding: 15px 30px 15px 30px;
+            padding-bottom: 15px;
+            border-radius: 50px;
+            display: block;
+        }
+
+        &__feedback {
+            padding: 32px 5px 27px 10px;
+
+            img {
+                display: none
+            }
+        }
+
         &__title {
-            // margin-top: 50px;
+
+
+            &:nth-of-type(2) {
+                display: none;
+            }
+
+            &:nth-of-type(1) {
+                text-align: center;
+            }
+        }
+    }
+
+    .pre-footer {
+        &__pictures {
+            flex: 1 0 0%;
+            padding-top: 0px;
+            height: 100%;
+        }
+
+        &__network {
+            height: 100%;
+        }
+
+        &__contacts {
+            font-size: 20px;
+            margin-bottom: 10px;
+
+            &:nth-of-type(2) {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
         }
     }
 }

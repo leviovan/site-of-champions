@@ -1041,6 +1041,10 @@
   .participant .dialog__item:nth-child(2) {
     margin-left: 0px;
   }
+  .participant__footnote {
+    position: static;
+    margin: 0 auto;
+  }
   .participant_item img {
     margin: 0 auto;
     width: 100%;
@@ -1086,5 +1090,46 @@
   }
   .for-what .item:nth-child(even) {
     padding: 10px 10px 10px 30px;
+  }
+  .partner__content {
+    padding: 0;
+  }
+  .partner__footnote {
+    position: static;
+    margin: 0 auto;
+    width: 161px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    display: block;
+  }
+  .partner__feedback {
+    padding: 32px 5px 27px 10px;
+  }
+  .partner__feedback img {
+    display: none;
+  }
+  .partner__title:nth-of-type(2) {
+    display: none;
+  }
+  .partner__title:nth-of-type(1) {
+    text-align: center;
+  }
+  .pre-footer__pictures {
+    flex: 1 0 0%;
+    padding-top: 0px;
+    height: 100%;
+  }
+  .pre-footer__network {
+    height: 100%;
+  }
+  .pre-footer__contacts {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pre-footer__contacts:nth-of-type(2) {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
