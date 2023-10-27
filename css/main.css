@@ -485,15 +485,18 @@
   background-size: 100%;
   height: 333px;
   border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .new__item:nth-child(1) {
-  background: url(../img/new1.png) no-repeat;
+  background-image: url(../img/new1.png);
 }
 .new__item:nth-child(2) {
-  background: url(../img/new2.png) no-repeat;
+  background-image: url(../img/new2.png);
 }
 .new__item:nth-child(3) {
-  background: url(../img/new3.png) no-repeat;
+  background-image: url(../img/new3.png);
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -723,6 +726,7 @@
   background: #8836AE;
   display: flex;
   flex-direction: column;
+  padding: 5px;
 }
 .application__title {
   border-radius: 14px;
@@ -1173,5 +1177,93 @@
   }
   .organizers__title {
     margin-left: 0px;
+  }
+}
+@media (max-width: 570px) {
+  .title {
+    font-size: 30px;
+    line-height: 110%;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .preview .left-side {
+    padding-top: 0px;
+  }
+  .preview .left-side__title {
+    font-size: 38px;
+  }
+  .preview .right-side {
+    display: none;
+  }
+  .preview .bottom-side {
+    padding: 30px 12px 30px 16px;
+  }
+  .preview .bottom-side__item img {
+    margin-left: 0px;
+  }
+  .for-what {
+    margin-bottom: 30px;
+  }
+  .for-what__content {
+    margin-bottom: 0px;
+  }
+  .for-what__btn {
+    padding: 10px 0px;
+  }
+  .participant__body {
+    margin-bottom: 0px;
+  }
+  .participant_item {
+    max-height: none;
+  }
+  .new__item {
+    width: 250px;
+    height: 200px;
+  }
+  .organizers__footnote {
+    margin-left: 0px;
+  }
+  .organizers .container {
+    padding-left: 10px;
+  }
+  .organizers__desc {
+    padding-top: 10px;
+  }
+  .organizers .info {
+    margin-left: 0px;
+  }
+  .organizers .info__item {
+    width: 230px;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .organizers .info__item span {
+    font-size: 40px;
+    line-height: 110%;
+  }
+  .organizers .info__item p {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  .partner__title {
+    letter-spacing: 0.1px;
+  }
+  .application__btn {
+    padding: 5px 44px;
+  }
+  .pre-footer .container {
+    padding-left: 10px;
+  }
+  .pre-footer__pictures {
+    display: none;
+  }
+  .footer__content h4 {
+    font-size: 10px;
+  }
+  .footer__content span {
+    font-size: 8px;
   }
 }/*# sourceMappingURL=main.css.map */
